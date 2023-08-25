@@ -1,0 +1,8 @@
+<h1>pro works!</h1>
+<h1>{{data}}</h1>
+<input type="text" value="{{data}}" disabled={{disable}} #box>
+<input type="text" value="{{data}}" [disabled]=disable #box2>
+
+<button (click)="get(box.value)">Login</button>
+
+
